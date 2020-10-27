@@ -8,7 +8,8 @@ import time
 import os
 from selenium.webdriver.common.by import By
 
-# TARGET_URL = 
+# DRIVER_DOWLOAD = "https://chromedriver.chromium.org/downloads"
+# TARGET_URL = ""
 if __name__ == "__main__":
     print('start crawler')
     logger.info('start crawler')
