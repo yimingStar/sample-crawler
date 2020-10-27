@@ -18,6 +18,7 @@ def set_chrome_driver():
         return driver
     except Exception as e:
         logger.exception(f'set chrome driver failed, {e}')
+        # if failed, the most possible reason is the version of driver is not correct
 
 def get_cookie(driver):
     """get driver's cookie"""
